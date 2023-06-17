@@ -1,14 +1,13 @@
-package com.seddik.microservice_project.api_gateway;
+package tn.khaled.api_gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.gateway.route.RouteLocator;
-import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.context.annotation.Bean;
+
 
 @SpringBootApplication
 @EnableEurekaClient
+//@EnableWebSecurity
 public class ApiGatewayApplication {
 
 	public static void main(String[] args) {
@@ -22,4 +21,6 @@ public class ApiGatewayApplication {
 //				.route("MSARTICLE", r->r.path("**/msArticle/**").uri("lb://MSARTICLE")) //dynamic routing"))
 //				.build();
 //	}
+
+
 }

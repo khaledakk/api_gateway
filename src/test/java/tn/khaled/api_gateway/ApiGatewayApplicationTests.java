@@ -1,4 +1,4 @@
-package com.seddik.microservice_project.api_gateway;
+package tn.khaled.api_gateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
